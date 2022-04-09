@@ -1,0 +1,33 @@
+Started at 17:50 on Friday the 8th of April.
+Ended at 21:50 on the same day.
+
+I find rule #4 to be somewhat unclear. 
+And I interpreted it as the following: 
+Only the multiples of 10 can precede the multiples of 10.
+Symbols that are not multiples of 10 must go after multiples of 10.
+
+17:50 - 18:10
+Understanding the rules of roman numerals.
+
+18:10 - 19:50
+In all cases, assume input is correct and free of errors.
+
+19:50 - 21:50
+Check for valid roman numeral input.
+In other words, implement rule #4.
+
+As I was cross checking the website converter, I noticed the following.
+
+1. 	Numbers greater than 3999 has a different notation.
+	It is first divided by 1000. My program does not support this different notation.
+	If I had more time, I would have implemented it.
+
+2. 	Symbols that have values that start with 5 (eg. V, L, D) 
+     	can not be preceded by more than one symbol that starts with 1.
+	Meaning, IIX, CCD, are not allowed. 
+	I only implemented for not allowing IIX and did not have to to check for the rest.
+	I only noticed this pattern as I was comparing my program output to web converter output.
+
+I was able to produce a function program that accepts error-free input within 100 minutes.
+I had expected to be able to produce a working solution sooner but I was trying to be careful.
+As mentioned above, if I had more time, I would have implemented more complete program.
